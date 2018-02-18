@@ -11,7 +11,8 @@ import numpy as np
 import math
 
 dir = 'D:\\StanfordYearTwo\\Classes\\CS230_Learning\\TimeSeries\\'
-data = pd.read_csv(dir+'time_series.csv');
+dir = '/Users/Yu-Lin/Box Sync/GitHub/treehacks-energy/'
+data = pd.read_csv(dir+'time_series2.csv');
 
 data.fillna(12, inplace = True);
 
